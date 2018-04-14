@@ -1,7 +1,7 @@
 {
   "name": "x-react-flipclock",
   "description": "Simple NPM package for React to display Flip Clock",
-  "version": "0.1.18414",
+  "version": "0.1.18415",
   "author": "Maxim Shklyar (kisla interactive)",
   "license": "MIT",
   "homepage": "https://github.com/xims/react-flipclock",

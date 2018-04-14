@@ -45,33 +45,33 @@ return {
 				test: /\.scss$/,
 
 				use: 
-					env == 'production' ?
+					// env == 'production' ?
 
-					ExtractTextPlugin.extract({
-						fallback: "style-loader",
-						use: 
-							[
-								{loader: 'css-loader',  options: {url: false}},
-								{
-									loader: 'postcss-loader',
-									options: {
-										plugins: function () {
-											return [
-												autoprefixer(
-													'>1%',
-													'last 4 versions',
-													'Firefox ESR',
-													'not ie < 9' // React doesn't support IE8 anyway
-												)
-											]
-										}
-									}
-								}, 
-								{loader: 'sass-loader'},
-							],
-						})
+					// ExtractTextPlugin.extract({
+					// 	fallback: "style-loader",
+					// 	use: 
+					// 		[
+					// 			{loader: 'css-loader',  options: {url: false}},
+					// 			{
+					// 				loader: 'postcss-loader',
+					// 				options: {
+					// 					plugins: function () {
+					// 						return [
+					// 							autoprefixer(
+					// 								'>1%',
+					// 								'last 4 versions',
+					// 								'Firefox ESR',
+					// 								'not ie < 9' // React doesn't support IE8 anyway
+					// 							)
+					// 						]
+					// 					}
+					// 				}
+					// 			}, 
+					// 			{loader: 'sass-loader'},
+					// 		],
+					// 	})
 
-					:
+					// :
 
 					[
 						'style-loader', 
@@ -131,11 +131,11 @@ return {
 			}),
 
 			// new ExtractTextPlugin("styles.css")
-			new ExtractTextPlugin({
-				filename: "[name].css",
-				// filename: "[name].[contenthash].css",
-				// disable: process.env.NODE_ENV === "development"
-			}),
+			// new ExtractTextPlugin({
+			// 	filename: "[name].css",
+			// 	// filename: "[name].[contenthash].css",
+			// 	// disable: process.env.NODE_ENV === "development"
+			// }),
 
 			// new webpack.LoaderOptionsPlugin({
 			// 	minimize: true,
