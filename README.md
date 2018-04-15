@@ -1,9 +1,9 @@
 # x-react-flipclock
 
-Simple NPM package for React to display Flip Clock.
-Examples are at https://xims.github.io/x-react-flipclock
-Source repository at https://github.com/xims/x-react-flipclock
-NPM package page at https://www.npmjs.com/package/x-react-flipclock
+Simple NPM package for React to display Flip Clock.  
+Examples are at https://xims.github.io/x-react-flipclock  
+Source repository at https://github.com/xims/x-react-flipclock  
+NPM package page at https://www.npmjs.com/package/x-react-flipclock  
 
 
 ## Installation
@@ -32,16 +32,6 @@ To use as a clock -
 ```
 
 
-To use as a clock - 
-```js
-
-<FlipClock
-	type="clock"
- />
-
-```
-
-
 To use as a countdown - 
 ```js
 
@@ -51,6 +41,7 @@ To use as a countdown -
  />
 
 ```
+
 
 
 ### Options
@@ -99,9 +90,9 @@ Specify and configure units to display -
 
 ## Development
 
-This package functionality is very basic and may be extended in the future.
-Would be great to develop the package to adapt unit sizes to container area.
-Also would be great to have styles options.
+This package functionality is very basic and may be extended in the future.  
+Would be great to develop the package to adapt unit sizes to container area.  
+Also would be great to have styles options.  
 
 
 ## Contributions
