@@ -4,10 +4,10 @@
   "version": "0.1.18415",
   "author": "Maxim Shklyar (kisla interactive)",
   "license": "MIT",
-  "homepage": "https://github.com/xims/react-flipclock",
+  "homepage": "https://github.com/xims/x-react-flipclock",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xims/react-flipclock.git"
+    "url": "git+https://github.com/xims/x-react-flipclock.git"
   },
   "main": "lib/FlipClock.js",
   "scripts": {
@@ -57,7 +57,7 @@
     "webpack-dev-server": "^3.1.0"
   },
   "bugs": {
-    "url": "https://github.com/xims/react-flipclock/issues"
+    "url": "https://github.com/xims/x-react-flipclock/issues"
   },
   "directories": {
     "lib": "lib",
