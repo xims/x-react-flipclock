@@ -1,7 +1,9 @@
 # x-react-flipclock
 
-Simple NPM package for React to display Flip Clock. 
-Examples are at [https://xims.github.io/x-react-flipclock/]
+Simple NPM package for React to display Flip Clock.
+Examples are at https://xims.github.io/x-react-flipclock
+Source repository at https://github.com/xims/x-react-flipclock
+NPM package page at https://www.npmjs.com/package/x-react-flipclock
 
 
 ## Installation
