@@ -9,17 +9,15 @@
     "type": "git",
     "url": "git+https://github.com/xims/react-flipclock.git"
   },
-  "main": "dist/FlipClock.js",
+  "main": "lib/FlipClock.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development --inline --hot --history-api-fallback --host localhost --port 9020 --progress --colors",
     "lint": "eslint src",
     "lint-fix": "eslint src --fix",
-    "bpc": "npm run build-prod && npm run copy-prod",
-    "bpcv": "npm run build-prod && npm run copy-prod && npm --no-git-tag-version version patch",
-    "build-prod": "cross-env --mode=production BABEL_ENV=production webpack -p --env=production --progress --colors --display-error-details",
-    "build-dist": "cross-env --mode=production BABEL_ENV=production webpack -p --env=production --progress --colors --display-error-details --config webpack.dist.config.js",
-    "build-dev": "webpack",
-    "build-dev-examples": "webpack --config webpack.examples.config.js"
+    "bpcv": "npm run build-prod && npm --no-git-tag-version version patch",
+    "build-docs": "cross-env --mode=production BABEL_ENV=production webpack -p --env=production --progress --colors --display-error-details",
+    "build-lib": "cross-env --mode=production BABEL_ENV=production webpack -p --env=production --progress --colors --display-error-details --config webpack.lib.config.js",
+    "build-dev": "webpack"
   },
   "dependencies": {
     "react": "^16.2.0",
@@ -62,6 +60,7 @@
     "url": "https://github.com/xims/react-flipclock/issues"
   },
   "directories": {
+    "lib": "lib",
     "example": "examples"
   },
   "keywords": [

@@ -12,7 +12,7 @@ return {
 	// devtool: 'source-map',
 
 	entry: {
-		'app': [
+		'FlipClockExamples': [
 			'babel-polyfill',
 
 			'react-hot-loader/patch',
@@ -24,7 +24,7 @@ return {
 
 	output: {
 		// path: path.resolve(__dirname, './www/build'),
-		path: __dirname + '/www',
+		path: __dirname + '/docs',
 		// publicPath: 'build/',
 		filename: 'FlipClockExamples.js',
 	},
@@ -129,7 +129,7 @@ return {
 		// 	},
 		// },
 
-		contentBase: __dirname + '/www',
+		contentBase: __dirname + '/docs',
 
 		hot: true
 	},
@@ -147,7 +147,7 @@ return {
 
 			// new CleanWebpackPlugin(['build/app.css', 'build/app.js'], {
 			new CleanWebpackPlugin(['build/*'], {
-				root: __dirname + '/www',
+				root: __dirname + '/docs',
 				verbose: true,
 				dry: false, // true for simulation
 			}),
@@ -187,7 +187,7 @@ return {
 			// new webpack.HotModuleReplacementPlugin(),
 
 			new CleanWebpackPlugin(['build/*'], {
-				root: __dirname + '/www',
+				root: __dirname + '/docs',
 				verbose: true,
 				dry: false, // true for simulation
 			}),

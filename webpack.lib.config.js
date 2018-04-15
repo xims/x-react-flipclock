@@ -20,7 +20,7 @@ return {
 
 	output: {
 		// path: path.resolve(__dirname, './www/build'),
-		path: __dirname + '/dist',
+		path: __dirname + '/lib',
 		// publicPath: 'build/',
 		filename: 'FlipClock.js',
 		libraryTarget: 'commonjs2' // !!!
@@ -125,7 +125,7 @@ return {
 
 			// new CleanWebpackPlugin(['build/app.css', 'build/app.js'], {
 			new CleanWebpackPlugin(['*'], {
-				root: __dirname + '/dist',
+				root: __dirname + '/lib',
 				verbose: true,
 				dry: false, // true for simulation
 			}),
@@ -165,7 +165,7 @@ return {
 			// new webpack.HotModuleReplacementPlugin(),
 
 			new CleanWebpackPlugin(['*'], {
-				root: __dirname + '/dist',
+				root: __dirname + '/lib',
 				verbose: true,
 				dry: false, // true for simulation
 			}),
