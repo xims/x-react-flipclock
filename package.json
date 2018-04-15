@@ -1,7 +1,7 @@
 {
   "name": "x-react-flipclock",
   "description": "Simple NPM package for React to display Flip Clock",
-  "version": "0.1.184152",
+  "version": "0.1.184153",
   "author": "Maxim Shklyar (kisla interactive)",
   "license": "MIT",
   "homepage": "https://github.com/xims/x-react-flipclock",
@@ -18,6 +18,9 @@
     "build-docs": "cross-env --mode=production BABEL_ENV=production webpack -p --env=production --progress --colors --display-error-details",
     "build-lib": "cross-env --mode=production BABEL_ENV=production webpack -p --env=production --progress --colors --display-error-details --config webpack.lib.config.js",
     "build-dev": "webpack"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0"
   },
   "dependencies": {
     "react": "^16.2.0",
