@@ -1,0 +1,7 @@
+# From .gitignore
+node_modules/
+
+# Additions for .npmignore only
+examples/
+docs/
+/.*
